@@ -136,20 +136,7 @@ const Contact = () => {
               </button>
             </motion.form>
             
-            <motion.div
-              className="mt-16 text-center"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <p className="text-lg font-medium mb-2">Or reach me directly at:</p>
-              <a 
-                href="mailto:hello@sanketdesai.info" 
-                className="text-foreground/80 hover:text-foreground underline transition-colors"
-              >
-                hello@sanketdesai.info
-              </a>
-            </motion.div>
+            {/* Removed the "Or reach me directly at" section */}
           </div>
         </div>
       </div>
