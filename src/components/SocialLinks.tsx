@@ -10,7 +10,7 @@ const SocialLinks = () => {
     },
     { 
       icon: <Linkedin size={18} />, 
-      href: 'https://github.com/sad160130', 
+      href: 'https://www.linkedin.com/in/snket-desai/', 
       label: 'LinkedIn'
     },
     { 
