@@ -1,26 +1,21 @@
 
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const SocialLinks = () => {
   const socialLinks = [
     { 
       icon: <Github size={18} />, 
-      href: 'https://github.com/sanketdes', 
+      href: 'https://github.com/sad160130', 
       label: 'GitHub'
     },
     { 
-      icon: <Twitter size={18} />, 
-      href: 'https://twitter.com/sanketdes', 
-      label: 'Twitter'
-    },
-    { 
       icon: <Linkedin size={18} />, 
-      href: 'https://www.linkedin.com/in/sanketdesai/', 
+      href: 'https://github.com/sad160130', 
       label: 'LinkedIn'
     },
     { 
       icon: <Mail size={18} />, 
-      href: 'mailto:hello@sanketdesai.info', 
+      href: 'mailto:snketad@outlook.com', 
       label: 'Email'
     },
   ];
