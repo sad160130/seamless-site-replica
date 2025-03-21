@@ -9,7 +9,7 @@ const About = () => {
       <div className="pt-20">
         <Hero 
           title="About Me"
-          description="Passionate about crafting digital experiences that make a difference."
+          description="SEO strategist and digital growth partner for high-impact marketing teams."
         />
         
         <div className="container-custom mt-16">
@@ -27,7 +27,7 @@ const About = () => {
               >
                 <h2 className="text-xl font-medium mb-4">Background</h2>
                 <p className="text-foreground/80 leading-relaxed">
-                  I am a software engineer with a focus on creating clean, efficient, and user-friendly applications. With experience spanning from startups to enterprise environments, I've developed a versatile skill set that allows me to adapt to various challenges in the tech industry.
+                  I'm a seasoned SEO strategist with 10+ years of experience scaling organic traffic for global B2B, media, and tech brands. Leveraging technical SEO, link-building, and Core Web Vitals optimization, I've helped major organizations like CoinDesk rank #1 for competitive keywords—driving millions of monthly visits. My passion lies in crafting data-driven organic growth strategies that elevate visibility, engagement, and ROI.
                 </p>
               </motion.div>
               
@@ -38,7 +38,7 @@ const About = () => {
               >
                 <h2 className="text-xl font-medium mb-4">Skills</h2>
                 <div className="flex flex-wrap gap-2">
-                  {['JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'AWS', 'Docker', 'GraphQL', 'REST APIs', 'SQL', 'NoSQL', 'UI/UX Design'].map((skill) => (
+                  {['Keyword research', 'Technical SEO', 'Website Auditing', 'On-Page SEO', 'Improving Core Web Vitals & UX', 'Link-Building', 'CRO', 'Local SEO', 'Topical Cluster', 'AI Search Optimization', 'Content Strategy'].map((skill) => (
                     <span key={skill} className="text-sm px-3 py-1 bg-secondary rounded-full text-foreground/80">
                       {skill}
                     </span>
