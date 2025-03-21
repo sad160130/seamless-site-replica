@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send } from 'lucide-react';
+import { Send, Mail, Phone } from 'lucide-react';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import { useToast } from "@/components/ui/use-toast";
@@ -45,7 +45,31 @@ const Contact = () => {
           description="Have a question or want to work together? Feel free to reach out!"
         />
         
-        <div className="container-custom mt-16">
+        <div className="container-custom mt-8">
+          <motion.div
+            className="max-w-xl mx-auto mb-12 text-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-foreground/80">
+              <a 
+                href="mailto:snketad@outlook.com" 
+                className="flex items-center gap-2 hover:text-foreground transition-colors"
+              >
+                <Mail size={18} />
+                <span>snketad@outlook.com</span>
+              </a>
+              <a 
+                href="tel:4695168838" 
+                className="flex items-center gap-2 hover:text-foreground transition-colors"
+              >
+                <Phone size={18} />
+                <span>469-516-8838</span>
+              </a>
+            </div>
+          </motion.div>
+          
           <div className="max-w-xl mx-auto">
             <motion.form
               onSubmit={handleSubmit}

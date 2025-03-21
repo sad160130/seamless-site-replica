@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import SocialLinks from '../components/SocialLinks';
+import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -41,6 +43,24 @@ const Index = () => {
             >
               I'm a growth-driven marketing strategist passionate about scaling brands through SEO, performance marketing, and data-led insights. Currently focused on building impactful organic strategies and user-centric digital experiences for B2B and tech companies.
             </motion.p>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.35 }}
+              className="flex justify-center mb-8"
+            >
+              <Button 
+                as="a" 
+                href="https://docs.google.com/document/d/1VJbSWbDYOidwwAaXxlFnaxfwbdR1WyQm/edit" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-auto"
+                size="lg"
+              >
+                <Download className="mr-2 h-4 w-4" /> Download Resume
+              </Button>
+            </motion.div>
             
             <motion.div
               className="flex justify-center mb-8"
