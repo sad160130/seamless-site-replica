@@ -30,7 +30,7 @@ const Index = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Product-focused software engineer building innovative experiences
+              Data-driven SEO & growth marketer helping brands scale with impact.
             </motion.h1>
             
             <motion.p
@@ -39,7 +39,7 @@ const Index = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              I'm a software engineer with a passion for creating elegant, user-centered solutions. Currently focused on building accessible, human-centered products with modern technologies.
+              I'm a growth-driven marketing strategist passionate about scaling brands through SEO, performance marketing, and data-led insights. Currently focused on building impactful organic strategies and user-centric digital experiences for B2B and tech companies.
             </motion.p>
             
             <motion.div
