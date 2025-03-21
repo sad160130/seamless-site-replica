@@ -50,16 +50,14 @@ const Index = () => {
               transition={{ duration: 0.5, delay: 0.35 }}
               className="flex justify-center mb-8"
             >
-              <Button 
-                as="a" 
+              <a 
                 href="https://docs.google.com/document/d/1VJbSWbDYOidwwAaXxlFnaxfwbdR1WyQm/edit" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mx-auto"
-                size="lg"
+                className={`mx-auto inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8`}
               >
                 <Download className="mr-2 h-4 w-4" /> Download Resume
-              </Button>
+              </a>
             </motion.div>
             
             <motion.div
