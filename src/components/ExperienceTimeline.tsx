@@ -69,7 +69,7 @@ export const ExperienceTimeline: React.FC = () => {
         >
           Experience
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-900 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
           A track record across finance, media, and technology
         </p>
 
@@ -81,7 +81,7 @@ export const ExperienceTimeline: React.FC = () => {
             >
               <div className="absolute -left-[13px] top-5 h-2.5 w-2.5 rounded-full border border-amber-500 bg-amber-400" />
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="text-sm font-semibold text-slate-900">
+                <h3 className="text-sm font-semibold text-slate-800">
                   {job.role}
                 </h3>
                 <p className="text-xs font-medium text-amber-700">{job.dates}</p>

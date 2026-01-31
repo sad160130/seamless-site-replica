@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700">
               Senior SEO Leader · Financial Services, Media, Technology
             </p>
-            <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
+            <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-800 sm:text-4xl lg:text-5xl">
               Driving massive organic growth for
               <span className="bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 bg-clip-text text-transparent"> high-stakes brands</span>.
             </h1>
@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
                 href="https://docs.google.com/document/d/1VJbSWbDYOidwwAaXxlFnaxfwbdR1WyQm/edit"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-800 px-5 py-2.5 text-sm font-medium text-white shadow-md shadow-slate-300 transition hover:bg-slate-700"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-amber-600 px-5 py-2.5 text-sm font-medium text-white shadow-md shadow-amber-200 transition hover:bg-amber-500"
               >
                 <Download className="h-4 w-4" />
                 Download Resume
@@ -108,7 +108,7 @@ const HighlightStat: React.FC<{
     <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700">
       {label}
     </p>
-    <p className="mt-2 text-2xl font-semibold text-slate-900">{value}</p>
+    <p className="mt-2 text-2xl font-semibold text-slate-800">{value}</p>
     <p className="mt-1 text-xs text-slate-600">{description}</p>
   </div>
 );

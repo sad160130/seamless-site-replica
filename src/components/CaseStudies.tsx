@@ -50,7 +50,7 @@ export const CaseStudies: React.FC = () => {
         >
           Case Studies
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-900 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
           Selected SEO & growth wins
         </p>
 
@@ -63,7 +63,7 @@ export const CaseStudies: React.FC = () => {
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700">
                 {cs.label}
               </p>
-              <h3 className="mt-2 text-sm font-semibold text-slate-900">
+              <h3 className="mt-2 text-sm font-semibold text-slate-800">
                 {cs.title}
               </h3>
               <p className="mt-2 text-xs font-medium text-slate-800">

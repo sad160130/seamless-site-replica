@@ -22,7 +22,7 @@ const About: React.FC = () => {
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700">
               About Snket Desai
             </p>
-            <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl lg:text-5xl">
+            <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-800 md:text-4xl lg:text-5xl">
               Senior SEO leader at the intersection of
               <span className="bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 bg-clip-text text-transparent"> finance, media, and technology</span>.
             </h1>
@@ -95,7 +95,7 @@ const About: React.FC = () => {
                 </h2>
                 <div className="mt-3 space-y-4 text-xs text-slate-700 md:text-sm">
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-slate-800">
                       Senior SEO Manager · Capital One (Shopping) · Remote
                     </p>
                     <p className="text-[11px] text-slate-500">Dec 2024 – Present</p>
@@ -115,7 +115,7 @@ const About: React.FC = () => {
                   </div>
 
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-slate-800">
                       Technical SEO Manager · CoinDesk Inc. · New York City, NY
                     </p>
                     <p className="text-[11px] text-slate-500">Aug 2021 – Dec 2024</p>
@@ -136,7 +136,7 @@ const About: React.FC = () => {
                   </div>
 
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-slate-800">
                       Acquisition & Growth · Goldman Sachs, JPMorgan Chase, K12, McAfee, Shutterstock
                     </p>
                     <p className="text-[11px] text-slate-500">2017 – 2021</p>
@@ -185,19 +185,19 @@ const About: React.FC = () => {
                 </h2>
                 <div className="mt-3 space-y-3 text-xs text-slate-700">
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-slate-800">
                       M.S., Information Technology and Management
                     </p>
                     <p>The University of Texas at Dallas · GPA 3.77</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-slate-800">
                       B.E., Computer Science
                     </p>
                     <p>University of Mumbai, India</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-slate-900">Certifications</p>
+                    <p className="font-semibold text-slate-800">Certifications</p>
                     <p>Google Analytics, Google Ads (Search & Display)</p>
                   </div>
                 </div>

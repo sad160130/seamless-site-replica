@@ -56,7 +56,7 @@ const Skills: React.FC = () => {
         >
           Skills
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-900 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
           The stack behind the results
         </p>
 
@@ -66,7 +66,7 @@ const Skills: React.FC = () => {
               key={group.title}
               className="rounded-2xl border border-slate-100 bg-white/80 p-5 shadow-sm"
             >
-              <h3 className="text-sm font-semibold text-slate-900">
+              <h3 className="text-sm font-semibold text-slate-800">
                 {group.title}
               </h3>
               <ul className="mt-3 space-y-1.5 text-xs text-slate-600">

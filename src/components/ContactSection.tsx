@@ -14,7 +14,7 @@ export const ContactSection: React.FC = () => {
         >
           Contact
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-900 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
           Let’s talk about your next growth story
         </p>
 

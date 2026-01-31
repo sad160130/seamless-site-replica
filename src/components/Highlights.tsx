@@ -31,7 +31,7 @@ export const Highlights: React.FC = () => {
             >
               Highlights
             </h2>
-            <p className="mt-2 text-xl font-semibold text-slate-900 sm:text-2xl">
+            <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
               A decade of compounding SEO impact
             </p>
           </div>
@@ -42,7 +42,7 @@ export const Highlights: React.FC = () => {
               key={item.title}
               className="rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
             >
-              <h3 className="text-sm font-semibold text-slate-900">
+              <h3 className="text-sm font-semibold text-slate-800">
                 {item.title}
               </h3>
               <p className="mt-2 text-xs text-slate-600">{item.body}</p>
