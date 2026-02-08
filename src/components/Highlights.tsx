@@ -21,17 +21,17 @@ export const Highlights: React.FC = () => {
   ];
 
   return (
-    <section id="highlights" aria-labelledby="highlights-title" className="py-16 bg-slate-50">
+    <section id="highlights" aria-labelledby="highlights-title" className="py-16 bg-[#0F172A]">
       <div className="container-custom">
         <div className="flex items-baseline justify-between gap-4">
           <div>
             <h2
               id="highlights-title"
-              className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700"
+              className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-400"
             >
               Highlights
             </h2>
-            <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
+            <p className="mt-2 text-xl font-semibold text-slate-100 sm:text-2xl">
               A decade of compounding SEO impact
             </p>
           </div>
@@ -40,12 +40,12 @@ export const Highlights: React.FC = () => {
           {items.map((item) => (
             <article
               key={item.title}
-              className="rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              className="rounded-2xl border border-slate-700/50 bg-slate-800/60 p-5 shadow-sm transition ease-card-deep hover:-translate-y-0.5 hover:shadow-md hover:border-teal-500/30"
             >
-              <h3 className="text-sm font-semibold text-slate-800">
+              <h3 className="text-sm font-semibold text-slate-100">
                 {item.title}
               </h3>
-              <p className="mt-2 text-xs text-slate-600">{item.body}</p>
+              <p className="mt-2 text-xs text-slate-400">{item.body}</p>
             </article>
           ))}
         </div>

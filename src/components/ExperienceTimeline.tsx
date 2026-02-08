@@ -60,36 +60,36 @@ export const ExperienceTimeline: React.FC = () => {
     <section
       id="experience"
       aria-labelledby="experience-title"
-      className="py-16 bg-white"
+      className="py-16 bg-[#0d1726]"
     >
       <div className="container-custom">
         <h2
           id="experience-title"
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700"
+          className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-400"
         >
           Experience
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-100 sm:text-2xl">
           A track record across finance, media, and technology
         </p>
 
-        <div className="mt-6 space-y-6 border-l border-slate-200 pl-4 md:pl-6">
+        <div className="mt-6 space-y-6 border-l border-slate-700/50 pl-4 md:pl-6">
           {experience.map((job) => (
             <article
               key={`${job.company}-${job.role}`}
-              className="relative rounded-xl bg-white/70 p-4 shadow-sm ring-1 ring-slate-100"
+              className="relative rounded-xl bg-slate-800/50 p-4 shadow-sm ring-1 ring-slate-700/50"
             >
-              <div className="absolute -left-[13px] top-5 h-2.5 w-2.5 rounded-full border border-amber-500 bg-amber-400" />
+              <div className="absolute -left-[13px] top-5 h-2.5 w-2.5 rounded-full border border-teal-500 bg-teal-400" />
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="text-sm font-semibold text-slate-800">
+                <h3 className="text-sm font-semibold text-slate-100">
                   {job.role}
                 </h3>
-                <p className="text-xs font-medium text-amber-700">{job.dates}</p>
+                <p className="text-xs font-medium text-teal-400">{job.dates}</p>
               </div>
-              <p className="mt-1 text-xs font-semibold text-slate-700">
+              <p className="mt-1 text-xs font-semibold text-slate-300">
                 {job.company} · {job.location}
               </p>
-              <ul className="mt-2 space-y-1.5 text-xs text-slate-600">
+              <ul className="mt-2 space-y-1.5 text-xs text-slate-400">
                 {job.bullets.map((b) => (
                   <li key={b}>• {b}</li>
                 ))}
