@@ -47,16 +47,16 @@ const Skills: React.FC = () => {
     <section
       id="skills"
       aria-labelledby="skills-title"
-      className="py-16 bg-white"
+      className="py-16 bg-[#0d1726]"
     >
       <div className="container-custom">
         <h2
           id="skills-title"
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700"
+          className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-400"
         >
           Skills
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-100 sm:text-2xl">
           The stack behind the results
         </p>
 
@@ -64,12 +64,12 @@ const Skills: React.FC = () => {
           {groups.map((group) => (
             <div
               key={group.title}
-              className="rounded-2xl border border-slate-100 bg-white/80 p-5 shadow-sm"
+              className="rounded-2xl border border-slate-700/50 bg-slate-800/60 p-5 shadow-sm transition ease-card-deep hover:border-teal-500/30"
             >
-              <h3 className="text-sm font-semibold text-slate-800">
+              <h3 className="text-sm font-semibold text-slate-100">
                 {group.title}
               </h3>
-              <ul className="mt-3 space-y-1.5 text-xs text-slate-600">
+              <ul className="mt-3 space-y-1.5 text-xs text-slate-400">
                 {group.items.map((item) => (
                   <li key={item}>• {item}</li>
                 ))}

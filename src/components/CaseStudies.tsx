@@ -41,16 +41,16 @@ export const CaseStudies: React.FC = () => {
     <section
       id="case-studies"
       aria-labelledby="case-studies-title"
-      className="py-16 bg-slate-50"
+      className="py-16 bg-[#0F172A]"
     >
       <div className="container-custom">
         <h2
           id="case-studies-title"
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700"
+          className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-400"
         >
           Case Studies
         </h2>
-        <p className="mt-2 text-xl font-semibold text-slate-800 sm:text-2xl">
+        <p className="mt-2 text-xl font-semibold text-slate-100 sm:text-2xl">
           Selected SEO & growth wins
         </p>
 
@@ -58,18 +58,18 @@ export const CaseStudies: React.FC = () => {
           {caseStudies.map((cs) => (
             <article
               key={cs.title}
-              className="flex flex-col rounded-2xl border border-amber-100 bg-gradient-to-br from-white via-amber-50/40 to-white p-5 shadow-sm"
+              className="flex flex-col rounded-2xl border border-teal-500/20 bg-gradient-to-br from-slate-800/60 via-teal-950/20 to-slate-800/60 p-5 shadow-sm animate-card-deep"
             >
-              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-400">
                 {cs.label}
               </p>
-              <h3 className="mt-2 text-sm font-semibold text-slate-800">
+              <h3 className="mt-2 text-sm font-semibold text-slate-100">
                 {cs.title}
               </h3>
-              <p className="mt-2 text-xs font-medium text-slate-800">
+              <p className="mt-2 text-xs font-medium text-slate-200">
                 {cs.impact}
               </p>
-              <ul className="mt-3 space-y-1.5 text-xs text-slate-600">
+              <ul className="mt-3 space-y-1.5 text-xs text-slate-400">
                 {cs.details.map((d) => (
                   <li key={d}>• {d}</li>
                 ))}
