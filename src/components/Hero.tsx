@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="https://docs.google.com/document/d/1VJbSWbDYOidwwAaXxlFnaxfwbdR1WyQm/edit"
+                href="https://drive.google.com/file/d/1J1wR3k5NpM5yDPX_ZUiLsEDIdA0QCggb/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-md shadow-teal-900/40 transition hover:bg-teal-500"
